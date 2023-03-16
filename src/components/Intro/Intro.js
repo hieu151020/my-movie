@@ -13,7 +13,7 @@ function Intro(props) {
         height="100%"
         muted={isMuted}
         loop={true}
-        url="https://vimeo.com/51912751"
+        url="https://vimeo.com/330883178"
         className="video-intro"
       />
       <div className="info-intro">

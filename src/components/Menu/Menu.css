@@ -1,0 +1,44 @@
+.menu-pane{
+    position:fixed;
+    left: 0;
+    top: 20%;
+    width: 47px;
+    padding: 4px 0;
+    background: rgba(0,0,0,0.3);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    transform-origin: left center;
+    transition: all 0.3s linear;
+    overflow: hidden;
+}
+
+.menu-pane:hover{
+    width: 180px;
+    background: rgba(0,0,0,0.5)
+}
+
+.sub-menu{
+    display: flex;
+    align-items: center;
+    width: max-content;
+    margin-left: 2px;
+    padding: 4px 6px;
+    cursor: pointer;
+}
+
+.sub-menu .icon{
+    font-size: 30px;
+    margin-right: 8px;
+}
+
+.sub-menu span{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.6);
+}
+
+.sub-menu span:hover{
+    color: #fff;
+}
+
